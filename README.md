@@ -9,4 +9,4 @@ Teacher Christopher Panther
 Responsibilities:
  - Tichina Buckle: Application Funcationality
  - Khi Lewis and Shemar Williams: GUI
- - Aveil: Database Contectivity
+ - Aviel Reid: Database Contectivity
