@@ -156,20 +156,20 @@ public class StudentCRUDImplement implements StudentCRUD {
 	 	// addStudent
 	     StudentCRUD studentCRUD = new StudentCRUDImplement();
 
-	    Student newStudent = new Student("001", "Cassandra", "Cain", "cassie.cain@gmail.com", "8767449900", "Cass!ePassword");
+	    Student newStudent = new Student("SD001", "Cassandra", "Cain", "cassie.cain@gmail.com", "8767449900", "Cass!ePassword");
 	    boolean added = studentCRUD.addStudent(newStudent);
 	    System.out.println("Added student: " + added);
 	    
-	    Student newStudent = new Student("002", "Debbie", "Moore", "mooredb@gmail.com", "8766658100", "Password123");
-		boolean added = studentCRUD.addStudent(newStudent);
-		System.out.println("Added student: " + added);
+	    Student newStudent2 = new Student("SD002", "Debbie", "Moore", "mooredb@gmail.com", "8766658100", "Password123");
+		boolean added2 = studentCRUD.addStudent(newStudent2);
+		System.out.println("Added student: " + added2);
 	     
-	    Student newStudent = new Student("003", "Eddy", "Wang", "wangman@gmail.com", "8768640965", "Password123!");
-		boolean added = studentCRUD.addStudent(newStudent);
-		System.out.println("Added student: " + added);
+	    Student newStudent3 = new Student("SD003", "Eddy", "Wang", "wangman@gmail.com", "8768640965", "Password123!");
+		boolean added3 = studentCRUD.addStudent(newStudent3);
+		System.out.println("Added student: " + added3);
 	    
 	    //getStudentById
-	    Student retrievedStudent = studentCRUD.getStudentById("001");
+	    Student retrievedStudent = studentCRUD.getStudentById("SD001");
 	    System.out.println("Retrieved student: " + retrievedStudent);
 	    
 	    // getAllStudents
@@ -180,15 +180,15 @@ public class StudentCRUDImplement implements StudentCRUD {
 	    }
 	    
 	    // updateStudent
-	    Student updatedStudent = new Student("001", "Cassandra", "Cain", "cassie.cain@gmail.com", "8760001111", "Cass!ePassword");
+	    Student updatedStudent = new Student("SD001", "Cassandra", "Cain", "cassie.cain@gmail.com", "8760001111", "Cass!ePassword");
 	    boolean updated = studentCRUD.updateStudent(updatedStudent);
 	    System.out.println("Updated student: " + updated);
 	    
-	    Student retrievedStudent2 = studentCRUD.getStudentById("001");
+	    Student retrievedStudent2 = studentCRUD.getStudentById("SD001");
 	    System.out.println("Retrieved student: " + retrievedStudent2);
 	    
 	    // deleteStudent
-	    boolean deleted = studentCRUD.deleteStudent("001");
+	    boolean deleted = studentCRUD.deleteStudent("SD001");
 	    System.out.println("Deleted student: " + deleted);
 	}*/
     
