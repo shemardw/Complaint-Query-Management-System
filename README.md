@@ -11,6 +11,6 @@ Group Members
 Teacher Christopher Panther
 
 Responsibilities:
- - Tichina Buckle: Application Funcationality
- - Khi Lewis and Shemar Williams: GUI
- - Aviel Reid: Database Contectivity
+ - Tichina Buckle: Application Funcationality and Database Connectivity
+ - Aviel Reid and Shemar Williams: GUI
+ - Khi Lewis: Logging
