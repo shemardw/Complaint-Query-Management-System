@@ -7,8 +7,10 @@ import java.awt.event.ActionListener;
 
 import server.Student;
 import server.StudentCRUDImplement;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class StudentApp {
+	
     private JFrame frame;
     private JTextField studentIdField;
     private JTextField firstNameField;
@@ -17,6 +19,8 @@ public class StudentApp {
     private JTextField contactNumberField;
     private JTextField passwordField;
     private StudentCRUDImplement studentCRUD;
+    
+    private static final Logger logger = LogManager.getLogger(Student.class);
 
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
@@ -27,6 +31,12 @@ public class StudentApp {
                 e.printStackTrace();
             }
         });
+        
+        // logging
+        logger.info("This is an info message");
+        logger.warn("This is a warning message");
+        logger.error("This is an error message");
+        logger.fatal("This is a fatal error message");
     }
 
     public StudentApp() {
