@@ -5,7 +5,7 @@ This is repository is where the Complaint & Query Management System will be deve
 Group Members 
 - Tichina Buckle (1801448)
 - Khi Lewis (1905103)
-- Aviel Reid ()
+- Aviel Reid (1804286)
 - Shemar Williams (1704317)
 
 Teacher Christopher Panther
