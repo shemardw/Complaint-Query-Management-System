@@ -12,5 +12,5 @@ Teacher Christopher Panther
 
 Responsibilities:
  - Tichina Buckle: Application Funcationality and Database Connectivity
- - Aviel Reid and Shemar Williams: GUI
+ - Khi Lewis, Aviel Reid and Shemar Williams: GUI
  - Khi Lewis: Logging
